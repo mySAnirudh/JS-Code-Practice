@@ -1,27 +1,10 @@
                            [[ JS All of this file ]]
 
-                           **JavaScript Variables**
-
- Neede of Variables :-
-
-  Jo data ham baar baar use karte hai usko variables kahate hai .
-  Var:- It's denoted by data
-
-  Use Like :-  var varkivalue =4;
-
-     var her = 2;
-     It's put variables data of 2 is put in "har"
-
-     Var and Let work same :-
-
-     We can use both anywhrer.
-      Var is old and "Let" is started with new version : ES6 ;
-
-  Const :- Ek baar aapne declear kar diya to baad me nahi bdlega.
-
-  Var:- It's case sencetive word
-   
-   Assign :- _hello / $hello / ..
 
 
-   Empty :We can also decelear empty variable in JS
+  Sub String :- It's use to remove small String from bugger String
+
+             // String se uske koi tukra nikalna
+
+
+  includes :- This tag is use to find the word if have  then true or not then false
