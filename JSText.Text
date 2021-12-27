@@ -1,10 +1,5 @@
                            [[ JS All of this file ]]
 
+  ** Immediately invoked function **
 
-
-  Sub String :- It's use to remove small String from bugger String
-
-             // String se uske koi tukra nikalna
-
-
-  includes :- This tag is use to find the word if have  then true or not then false
+  It's use when we want to use other code and my code also
