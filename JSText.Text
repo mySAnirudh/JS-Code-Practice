@@ -1,5 +1,6 @@
                            [[ JS All of this file ]]
 
-  ** Immediately invoked function **
 
-  It's use when we want to use other code and my code also
+   *** Select an element by "Class Name" ***
+
+   -->> With the help of Class we can set more then one element.

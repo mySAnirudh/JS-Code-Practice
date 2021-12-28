@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <br> <br>
+<br>
+<br>
+  <!-- N HTML Document ek hi element ek ID de sakte hai  --> 
+
+  <!-- We can aslo use to set multiple class  -->
+  <ul>
+    <li class="h2 pl"> List 1</li>
+    <li id="sam"> List 2</li>
+    <li class="h2"> List 3</li>
+</ul>
+  
+<script>
+    let hello = document.getElementsByClassName("h2 pl"); // This is multiple class select and hanges
+
+    for(let i = 0 ; i < hello.length; i ++) {
+        hello[i].innerHTML = "<p> hello </p>";
+        
+    }
+
+</script>
+
+</body>
+</html>
