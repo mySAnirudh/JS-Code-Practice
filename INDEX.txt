@@ -1,28 +1,43 @@
 
- 
-    **** NUMBER ****
 
-    The Number object represents numerical date, either integers or floating-point numbers. 
-In general, you do not need to worry about Number objects because the browser 
-automatically converts number literals to instances of the number class.
-Following is the syntax for creating a number object.
-var val = new Number(number);
-In the place of number, if you provide any non-number argument, then the argument 
-cannot be converted into a number, it returns NaN (Not-a-Number). 
-Number Properties
-Property Description
-Number.EPSILON The smallest interval between two representable 
-numbers
-Number.MAX_SAFE_INTEGER The maximum safe integer in JavaScript (2^53 - 1)
-Number.MAX_VALUE The largest positive representable number
-Number.MIN_SAFE_INTEGER The minimum safe integer in JavaScript (-(2^53 - 1))
-Number.MIN_VALUE
-The smallest positive representable number - that is, 
-the positive number closest to zero (without actually 
-being zero)
-Number.NaN Special "not a number" value
-Number.NEGATIVE_INFINITY Special value representing negative infinity; returned 
-on overflow
-Number.POSITIVE_INFINITY Special value representing infinity; returned on 
-overflow
-Number.prototype Allows the addition of properties to a Number object
+      **** COOKIES ****
+
+    
+  JavaScript Cookies. A cookie is an amount of information that
+   persists between a server-side and a client-side. A web browser
+    stores this information at the time of browsing. A cookie contains 
+    the information as a string generally 
+  in the form of a name-value pair separated by semi-colons.
+
+  
+
+    Web Browsers and Servers use HTTP protocol to communicate. HTTP is stateless protocol,
+i.e., it doesn’t maintain the client’s data across multiple requests made by the client. This 
+complete request-response cycle between the client and the server is defined as a 
+session. Cookies are the default mechanism used by browsers to store data pertaining to 
+a user’s session.
+HowItWorks?
+Your server sends some data to the visitor's browser in the form of a cookie. The browser 
+may accept the cookie. If it does, it is stored as a plain text record on the visitor's hard 
+drive. Now, when the visitor arrives at another page on your site, the browser sends the 
+same cookie to the server for retrieval. Once retrieved, your server knows/remembers 
+what was stored earlier.
+Cookies are plain text data record of 5 variable-length fields.
+ Expires: The date the cookie will expire. If this is blank, the cookie will expire 
+when the visitor quits the browser.
+ Domain: The domain name of your site.
+ Path: The path to the directory or web page that sets the cookie. This may be 
+blank, if you want to retrieve the cookie from any directory or page.
+ Secure: If this field contains the word "secure", then the cookie may only be 
+retrieved with a secure server. If this field is blank, no such restriction exists.
+ Name=Value: Cookies are set and retrieved in the form of key-value pairs.
+Cookies were originally designed for CGI programming. The data contained in a cookie is 
+automatically transmitted between the web browser and the web server, so CGI scripts on 
+the server can read and write cookie values that are stored on the client side.
+JavaScript can also manipulate cookies using the cookie property of the Document object. 
+JavaScript can read, create, modify, and delete the cookies that apply to the current web 
+page.
+StoringCookies
+The simplest way to create a cookie is to assign a string value to the document.cookie
+object, which looks like this.
+document.cookie = "key1=value1;key2=value2;expires=date";
