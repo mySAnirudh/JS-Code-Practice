@@ -1,9 +1,12 @@
+const http =require('http');
+const { json } = require('stream/consumers');
+http.createServer((req,resp)=>{
+    resp.writeHead(200,{'Content-Type':'application\json'});
+    resp.write(JSON.stringify({name:'Samrat Singh', email:'mynsamrat@gmail.com'}));
+    resp.end();
+}).listen(5002); // It's start after run in cmd "nodemon start " this cammand 
+// Then run in broser then it's show the output 
 
-// This is the also way to create files in folder
-const fs=require('fs');
-const path =require('path');
-const dirPath=path.join(__dirname,'files'); // "files is a folder name which is create already"
-const filePath=`${dirPath}/apple.txt`;
 
-fs.writeFileSync(filePath,'This is the inside text of file path'); // for create file run the command
-// in Terminal write : node .\index.js (file name)
+// RUN in Thunder Client by this code in Get method :- http://localhost:5000
+// Don't use https 
