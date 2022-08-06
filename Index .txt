@@ -1,19 +1,15 @@
 
-
-    *** Visibility ***
-
-    A property called visibility allows you to hide an element from view. You can use 
-this property along with JavaScript to create very complex menu and very 
-complex webpage layouts.
-You may choose to use the visibility property to hide error messages that are 
-only displayed if the user needs to see them, or to hide answers to a quiz until 
-the user selects an option.
-NOTE: Remember that the source code will still contain whatever is in the 
-invisible paragraph, so you should not use this to hide sensitive information such 
-as credit card details or passwords.
-The visibility property can take the values listed in the table that follows:
-Value Description
-visible The box and its contents are shown to the user.
-hidden The box and its content are made invisible, although they still affect 
-the layout of the page.
-collapse This is for use only with dynamic table columns and row effects.
+ 
+    *** Dimension ***
+You have seen the border that surrounds every box i.e. element, the padding 
+that can appear inside each box, and the margin that can go around them. In 
+this chapter, we will learn how to change the dimensions of boxes.
+We have the following properties that allow you to control the dimensions of a 
+box.
+ The height property is used to set the height of a box.
+ The width property is used to set the width of a box.
+ The line-height property is used to set the height of a line of text.
+ The max-height property is used to set a maximum height that a box can be.
+ The min-height property is used to set the minimum height that a box can be.
+ The max-width property is used to set the maximum width that a box can be.
+ The min-width property is used to set the minimum width that a box can be.
