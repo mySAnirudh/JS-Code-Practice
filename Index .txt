@@ -1,21 +1,19 @@
 
 
+    *** Visibility ***
 
-       *** Table ***
-
-This chapter teaches you how to set different properties of an HTML table using 
-CSS. You can set the following properties of a table:
- The border-collapse specifies whether the browser should control the 
-appearance of the adjacent borders that touch each other or whether each 
-cell should maintain its style.
- The border-spacing specifies the width that should appear between table 
-cells.
- The caption-side captions are presented in the <caption> element. By 
-default, these are rendered above the table in the document. You use 
-the caption-side property to control the placement of the table caption.
- The empty-cells specifies whether the border should be shown if a cell is 
-empty.
- The table-layout allows browsers to speed up the layout of a table by 
-using the first width properties it comes across for the rest of a column 
-rather than having to load the whole table before rendering it.
-Now, we will see how to use these properties with examples.
+    A property called visibility allows you to hide an element from view. You can use 
+this property along with JavaScript to create very complex menu and very 
+complex webpage layouts.
+You may choose to use the visibility property to hide error messages that are 
+only displayed if the user needs to see them, or to hide answers to a quiz until 
+the user selects an option.
+NOTE: Remember that the source code will still contain whatever is in the 
+invisible paragraph, so you should not use this to hide sensitive information such 
+as credit card details or passwords.
+The visibility property can take the values listed in the table that follows:
+Value Description
+visible The box and its contents are shown to the user.
+hidden The box and its content are made invisible, although they still affect 
+the layout of the page.
+collapse This is for use only with dynamic table columns and row effects.
