@@ -1,0 +1,32 @@
+
+       ******** META Tags ********
+
+
+HTML lets you specify metadata - additional important information about a document in a 
+variety of ways. The META elements can be used to include name/value pairs describing 
+properties of the HTML document, such as author, expiry date, a list of keywords, 
+document author etc.
+The <meta> tag is used to provide such additional information. This tag is an empty 
+element and so does not have a closing tag but it carries information within its attributes.
+You can include one or more meta tags in your document based on what information you 
+want to keep in your document but in general, meta tags do not impact physical 
+appearance of the document so from appearance point of view, it does not matter if you 
+include them or not.
+Adding Meta Tags to Your Documents
+You can add metadata to your web pages by placing <meta> tags inside the header of 
+the document which is represented by <head> and </head> tags. A meta tag can have 
+following attributes in addition to core attributes:
+Attribute Description
+Name Name for the property. Can be anything. Examples include, keywords, 
+description, author, revised, generator etc.
+content Specifies the property's value.
+scheme Specifies a scheme to interpret the property's value (as declared in the 
+content attribute).
+httpequiv
+Used for http response message headers. For example, http-equiv can be 
+used to refresh the page or to set a cookie. Values include content-type, 
+expires, refresh and set-cookie.
+Specifying Keywords
+You can use <meta> tag to specify important keywords related to the document and later 
+these keywords are used by the search engines while indexing your webpage for searching 
+purpose.
