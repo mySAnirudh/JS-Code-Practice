@@ -1,0 +1,15 @@
+
+
+    *** FORMS ***
+
+    HTML Form Controls
+There are different types of form controls that you can use to collect data using HTML 
+form:
+ Text Input Controls
+ Checkboxes Controls
+ Radio Box Controls
+ Select Box Controls
+ File Select boxes
+ Hidden Controls
+ Clickable Buttons
+ Submit and Reset Button
