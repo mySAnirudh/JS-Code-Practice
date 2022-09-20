@@ -1,15 +1,15 @@
+   
+     *** Marquee Tag ***
+     
 
-
-    *** FORMS ***
-
-    HTML Form Controls
-There are different types of form controls that you can use to collect data using HTML 
-form:
- Text Input Controls
- Checkboxes Controls
- Radio Box Controls
- Select Box Controls
- File Select boxes
- Hidden Controls
- Clickable Buttons
- Submit and Reset Button
+An HTML marquee is a scrolling piece of text displayed either horizontally across or 
+vertically down your webpage depending on the settings. This is created by using HTML 
+<marquees> tag.
+Note: The HTML <marquee> tag may not be supported by various browsers so it is not 
+recommended to rely on this tag, instead you can use JavaScript and CSS to create such 
+effects.
+Syntax
+A simple syntax to use HTML <marquee> tag is as follows:
+<marquee attribute_name="attribute_value"....more attributes>
+One or more lines or text message or image
+</marquee>
