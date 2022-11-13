@@ -1,27 +1,19 @@
 
+     **** AURAL MEDIA ****
 
-    **** PAGE MEDIA ****
-    Paged media differ from continuous media in that the content of the document is 
-split into one or more discrete pages. Paged media includes paper, 
-transparencies, pages that are displayed on computer screens, etc.
-The CSS2 standard introduces some basic pagination control features that let 
-authors help the browser figure out how to best print their documents.
-The CSS2 page model specifies how a document is formatted within a 
-rectangular area -- the page box -- that has a finite width and height. These 
-features fall into two groups:
- CSS2 features that define a particular page layout.
- CSS2 features that control the pagination of a document.
-Defining Pages: The @page Rule
-The CSS2 defines a "page box", a box of finite dimensions, in which content is 
-rendered. The page box is a rectangular region that contains two areas:
- The page area: The page area includes the boxes laid out on that page. 
-The edges of the page area act as the initial containing block for layout 
-that occurs between page breaks.
- The margin area: It surrounds the page area.
-You can specify the dimensions, orientation, margins, etc., of a page box within 
-an @page rule. The dimensions of the page box are set with the 'size' property. 
-The dimensions of the page area are the dimensions of the page box minus the 
-margin area.
-For example, the following @page rule sets the page box size to 8.5 x 11 inches 
-and creates '2cm' margin on all sides between the page box edge and the page 
-area:
+     A web document can be rendered by a speech synthesizer. CSS2 allows you to 
+attach specific sound style features to specific document elements.
+Aural rendering of documents is mainly used by the visually impaired. Some of 
+the situations in which a document can be accessed by means of aural rendering 
+rather than visual rendering are the following.
+ Learning to read
+ Training
+ Web access in vehicles
+ Home entertainment
+ Industrial documentation
+ Medical documentation
+When using aural properties, the canvas consists of a three-dimensional physical 
+space (sound surrounds) and a temporal space (one may specify sounds before, 
+during, and after other sounds).
+The CSS properties also allow you to vary the quality of synthesized speech 
+(voice type, frequency, inflection, etc.).
