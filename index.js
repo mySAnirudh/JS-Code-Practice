@@ -1,17 +1,27 @@
-console.log("This is frist line")
+// First we are installing Express jS via terminal 
 
-console.log("This is frist line 2")
-setTimeout(()=>{
-    console.log("This is frist line 3")
-},2000)
+const exoress=require('express');
+const app=exoress();
 
-setTimeout(()=>{
-    console.log("This is frist line 4")
-},0
-)
-console.log("This is frist line 5")
+app.get('',(req,resp)=>{ // In this having two parameters 1/Request 2/Response 
+   resp.send('Hello, this is Home Page ');
+}) ;// get is a methods it's provide routs 
 
-console.log("This is frist line 6")
+app.get('/Profile',(req,resp)=>{
+    resp.send('Hello, this is Profile Page ');
+}) ;
 
-// This is the Bahavious of node js 
-// Try out in terminal 
+app.get('/About',(req,resp)=>{
+    resp.send('Hello, this is Abut US Page ');
+}) ;
+
+app.get('/Profile',(req,resp)=>{
+    resp.send('Hello, this is Profile Page ');
+}) ;
+
+app.listen(5000);
+
+//USE (nodemoon .\index.js) Use the command to auto update then 
+// THen write in browser localhost:5000 
+// Then also for other write (localhost:5000/Anout )
+// For another things 
