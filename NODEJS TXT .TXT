@@ -1,8 +1,8 @@
 
-    ** Make Basic Server Output and Bowser **
 
-  1. Make Baisc Server 
-  2. Function as parameter in node
-  3. Arrow Function
-  4. Get Output on Browser 
+    *** How node js work ***
 
+    1. Call Stack
+    2. Node API 
+    3. CallBack Queus
+    4. Example 
